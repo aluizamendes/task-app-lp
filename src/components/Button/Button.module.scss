@@ -1,0 +1,17 @@
+@import "@/styles/variables";
+
+.button {
+    all: unset;
+    background-color: $purple-20;
+    color: $white-10;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .4s ease;
+
+    &:hover {
+        background-color: $purple-30;
+    }
+}

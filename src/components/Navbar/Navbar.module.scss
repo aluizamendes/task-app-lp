@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;    
+
+    padding: 16px 6%;
+}
+
+.logo {
+    max-width: 140px;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+}
+
+@media (max-width: 768px) {
+    .links {
+        display: none;
+    }
+}
