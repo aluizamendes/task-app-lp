@@ -21,7 +21,7 @@ export default function Navbar() {
                 </nav>
 
                 <div className={styles.signIn}>
-                    <Button>
+                    <Button shadow="false">
                         Sign In
                     </Button>
                 </div>

@@ -1,0 +1,10 @@
+@import "@/styles/variables";
+
+.title h1 {
+    font-size: 56px;
+    color: $black-20;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-inline: auto;
+    max-width: 70%;
+}
