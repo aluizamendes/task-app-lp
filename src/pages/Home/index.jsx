@@ -2,6 +2,7 @@ import CardFeatures from "@/components/CardFeatures";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import SectionFeature from "@/components/SectionFeature";
+import SectionPlataform from "@/components/SectionPlataform";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
                 displayButton="block"
                 image="feature-image-2.png"            
             />
+            <SectionPlataform />
         </>
     )
 }

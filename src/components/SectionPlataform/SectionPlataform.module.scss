@@ -1,0 +1,32 @@
+@import "@/styles/variables";
+
+.section {
+    background-color: $purple-10;
+    padding: 56px;
+    max-height: 430px;
+    margin: 48px 0px;
+
+    .container {
+        display: flex;
+        gap: 100px;
+
+        .image {
+            margin-left: -15%;
+
+            img {
+                max-width: 660px;
+                
+                box-shadow: 0 1px 26px #00000025;
+                border-radius: 20px;
+            }
+        }
+
+        .content {
+            margin-top: 40px;
+
+            &__description {
+                margin-top: 16px;
+            }
+        }
+    }
+}
