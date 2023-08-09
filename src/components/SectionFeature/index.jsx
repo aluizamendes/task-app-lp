@@ -27,7 +27,7 @@ export default function SectionFeature({ direction, title, content, contentButto
                     </div>
 
                     <div className={styles.image}>
-                        <img src={`../../../public/${image}`} />
+                        <img src={`/public/${image}`} />
                     </div>
                 </div>
 
