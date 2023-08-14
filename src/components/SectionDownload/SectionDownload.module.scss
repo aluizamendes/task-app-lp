@@ -1,0 +1,32 @@
+@import "@/styles/variables";
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+    margin: 48px 0;
+}
+
+.content {
+    flex-basis: 100%;
+
+    p {
+        margin: 16px 0;
+    }
+}
+
+.image {
+    flex-basis: 100%;
+
+    img {
+        width: 500px;
+    }
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 34px;
+}

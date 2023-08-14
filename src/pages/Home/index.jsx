@@ -2,6 +2,7 @@ import CardFeatures from "@/components/CardFeatures";
 import Faq from "@/components/Faq";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
+import SectionDownload from "@/components/SectionDownload";
 import SectionFeature from "@/components/SectionFeature";
 import SectionPlataform from "@/components/SectionPlataform";
 
@@ -22,6 +23,7 @@ export default function Home() {
             />
             <SectionPlataform />
             <Faq />
+            <SectionDownload />
         </>
     )
 }
