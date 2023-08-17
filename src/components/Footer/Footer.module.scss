@@ -1,0 +1,55 @@
+@import "@/styles/variables";
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 40px 0;
+}
+
+.social {
+    img {
+        width: 50%;
+    }
+
+    &__container {
+        display: flex;
+        gap: 6px;
+        margin-top: 16px;
+    }
+}
+
+.column {
+    &__title {
+        color: $black-20;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    &__description {
+        color: $black-10;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    ul {
+        list-style: none;
+        text-decoration: none;
+
+        li {
+            margin-bottom: 4px;
+
+            a {
+                text-decoration: none;
+                color: $black-10;
+                font-weight: 500;
+                font-size: 14px;
+                transition: .5s;
+
+                &:hover {
+                    color: $purple-20;
+                }
+            }
+        } 
+    }
+}

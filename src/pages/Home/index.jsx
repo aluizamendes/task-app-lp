@@ -1,5 +1,6 @@
 import CardFeatures from "@/components/CardFeatures";
 import Faq from "@/components/Faq";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import SectionDownload from "@/components/SectionDownload";
@@ -24,6 +25,7 @@ export default function Home() {
             <SectionPlataform />
             <Faq />
             <SectionDownload />
+            <Footer />
         </>
     )
 }

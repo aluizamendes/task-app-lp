@@ -1,7 +1,7 @@
 import Button from "../Button"
 import MenuLink from "../MenuLink"
 import styles from "./Navbar.module.scss"
-import Logo from "./logo.svg"
+import Logo from "/logo.svg"
 
 export default function Navbar() {
 
